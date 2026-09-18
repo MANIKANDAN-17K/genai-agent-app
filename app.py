@@ -4,7 +4,7 @@ from flask import Flask, request, jsonify, render_template
 
 # 🔑 Configure API key
 genai.configure(api_key=os.getenv("API_KEY"))
-
+#comment
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 # 🌐 Flask app
